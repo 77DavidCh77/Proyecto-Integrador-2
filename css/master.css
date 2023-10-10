@@ -1,0 +1,202 @@
+body {
+  background-color: rgb(10, 10, 10);
+}
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #fc7300;
+  text-align: center;
+  color: #eff5f5;
+  padding: 5%;
+}
+
+#redes-sociales {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 5%;
+}
+
+#redes-sociales img {
+  transition: all 300ms;
+}
+
+#contactos {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  width: 90%;
+  margin: 5%;
+}
+
+#contactos a {
+  color: #181823;
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #1f8a70;
+}
+
+.navbar-container {
+  height: auto;
+  flex-direction: row;
+  position: static;
+  width: 60%;
+}
+
+.menu-cel {
+  display: none;
+}
+
+.navegador-header {
+  border-bottom: none;
+}
+
+.navbar-item {
+  text-align: center;
+}
+
+.navbar-link:hover {
+  color: #185f4c;
+  font-weight: 600;
+}
+
+.contenedor-titulo {
+  height: 40rem;
+  background-size: cover;
+}
+
+.contenedor-titulo h1 {
+  font-size: 6em;
+  color: #ff7300;
+  top: 50%;
+}
+
+.slide {
+  margin-top: 10px;
+
+}
+
+.slide img {
+  height: 100vh;
+}
+
+#redes-sociales img:hover {
+  transform: scale(1.4);
+}
+
+#contactos a:hover {
+  color: #d26913;
+}
+
+.contenedor-redes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-contacto,
+.contenedor-institucion,
+.contenedor-redessociales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-redes div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+#contactos {
+  align-content: center;
+}
+
+#redes-sociales {
+  align-items: center;
+  width: 70%;
+
+}
+
+form {
+  font-family: "Belanosima", sans-serif;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1px 1px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  border-radius: 0.1px;
+  text-align: center;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+h2 {
+  color: #181823;
+  font-size: 25px;
+}
+
+label {
+  color: #181823;
+  font-size: 15px;
+  font-weight: 5;
+  margin-bottom: 1px;
+}
+
+input,
+textarea {
+  padding: 1px 1px;
+  margin-bottom: 1px;
+  background-color: #eff5f5;
+  border: 1px solid #eff5f5;
+  color: #181823;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #eff5f5;
+}
+
+.form-txt {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.form-txt a {
+  color: #1f8a70;
+  font-size: 8px;
+  font-weight: 10;
+  text-decoration: none;
+}
+
+.bnt:hover {
+  background-color: #1f8a70;
+}
+
+@media(max-width: 10) {}
+
+
+
+@media screen and (max-width: 800) {
+  body {
+    background: #FC7300;
+  }
+
+  @media screen and (max-width: 400) {
+    .contendor {
+      width: 100%;
+    }
+
+  }
+}

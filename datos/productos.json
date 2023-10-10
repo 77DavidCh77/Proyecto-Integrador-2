@@ -1,0 +1,115 @@
+[
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Gibson",
+        "precio" : "$1.850.000",
+        "imagen" : [
+            "Gibson-Les-Paul-Standard.jpg",
+            "Gibson20b217f888b61c2727.jpg",
+            "Gibson título.jpg",
+            "GibsonSin título.jpg"
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Fender",
+        "precio" : "$880.000",
+        "imagen" : [
+            "Fender-Clapton-Strat.jpg",
+            "fenderimages.jpg",
+            "modelos-Fender-1024x399.webp",
+            "fenderWszystkie.jpg"
+            ]
+    },
+    
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Yamaha",
+        "precio" : "$243.918",
+        "imagen" : [
+            "Yamaha-Pacifica.jpg",
+            "Yamahaaxresdefault.jpg",
+            "Yamaha título.jpg",
+            "Yamaha279a1a~mv2.webp"
+        ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Ibañez",
+        "precio" : "$750.000",
+        "imagen" : [
+            "Ibanez-Prestige-.jpg",
+            "FORMAS-IBANEZ-1024x895.webp",
+            "Ibañezages.jpg",
+            "IbañezModelos Signature.jpg"
+        ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Jackson",
+        "precio" : "$230.000",
+        "imagen" : [
+            "Jackson.jpg",
+            "jackson-custom-shop-octubre1.jpg",
+            "guitarras-jackson-920x1024.webp",
+            "Jacksonsdefault.jpg"
+
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Epiphone",
+        "precio" : "$874.739",
+        "imagen" : [ 
+        "Epiphone-Les-Paul-Classic.jpg",
+        "Epiphoned313d4b8475dee497.jpg",
+        "Epiphone título.jpg",
+        "guitarras-epiphone-designer.webp"
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Harley-Benton",
+        "precio" : "$765.000",
+        "imagen" : [
+        "Harley-Benton.jpg",
+        "Harley-Benton-hollowbody-1024x615.webp",
+        "Harleyes.jpg",
+        "Harleytítulo.jpg"
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "ESP",
+        "precio" : "$240.000",
+        "imagen" : [
+        "ESP-LTD-TE-BLKS.jpg",
+        "ESPfdsg.jpg",
+        "ESPoriginal (1).jpg",
+        "ESPn título.jpg"
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "Squier",
+        "precio" : "$200.000",
+        "imagen" : [ 
+        "Squier-CV-60s-Custom.jpg",
+        "guitarras-Squier-2-1024x623.webp",
+        "Esquier2JY_1280x720.webp",
+        "Guitarras-de-la-gama-Contemporary-de-Squier.webp"
+    
+    ]
+    },
+    {
+        "texto" : "Guitarra",
+        "nombre" : "PRS",
+        "precio" : "$220.000",
+        "imagen" : [ 
+        "PRS tortoise.jpg",
+        "PRS SE 2020 6.jpg",
+        "modelos-prs-1024x647.webp",
+        "muestras-prs.jpg"
+    ]
+    }
+]

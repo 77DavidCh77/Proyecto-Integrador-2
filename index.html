@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Chere Hernán David">
+  <meta name="description" content="the best 10 electric guitars">
+
+  <title>Proyecto Integrador Final 2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Autour+One&family=Belanosima&family=Creepster&family=Poppins:wght@100;200;600&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+
+
+</head>
+
+<body>
+
+    <h1 class="text-center" style="color: white;">VENTAS DE GUITARRAS</h1>
+
+  <!-- Carrusel de guitarras -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/Portada1.png" class="d-block w-100" alt="Portada1">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Portada2.jpg" class="d-block w-100" alt="Portada2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Portada3.jpg" class="d-block w-100" alt="Portada3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h1 class="text-center" style="color: white;" >Productos Destacados:</h1>
+
+  <section id="productos" class="row col-12 col-md-4 col-lg-6 mx-auto pt-3 -secondary">
+
+  </section>
+
+
+  <footer class="footer">
+    <div class=" row  text-center">
+      <!-- Redes sociales -->
+      <div class="col-12 col-md-4 col-lg-4">
+        <h2>Redes Sociales</h2>
+        <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebook-circle.svg" alt="logo-facebook"
+            width="50rem">
+        </a>
+        <a href="https://twitter.com/" target="_blank"> <img src="img/twitter.svg" alt="logo-twitter" width="50rem">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagram.svg" alt="logo-instagram"
+            width="50rem">
+        </a>
+      </div>
+      <!-- Mapa de la ubicacion -->
+      <div class="col-12 col-md-4 col-lg-4">
+        <h2>Ubicación</h2>
+        <iframe style="border:none" src="https://www.google.com/maps/d/u/1/embed?mid=1vrxMiuvpPoBzN72LPahEbk9inXrN47Eo"
+          width="w-50" height="300">
+        </iframe>
+        <br>
+      </div>
+
+      <!-- Contacto -->
+      <div class="col-12 col-md46 col-lg-4">
+        <h2>Contacto</h2>
+          <a href="https://untref.edu.ar/">untrefschool@utref.edu.ar</a>
+        <form action="https://formsubmit.co/spiderman77nirvana@gmail.com" method="POST">
+
+          <div class="input-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="phone" placeholder="Nombre">
+            <label for="phone">Telefono</label>
+            <input type="tel" mane="phone" id="phone" placeholder="Telefono">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <label for="massage">Mensaje</label>
+            <textarea name="message" id="message" cols="20" rows="10" rows="5" placeholder="Mensaje"></textarea>
+            <div class="form-text">
+              <a href="#">Politica de privacidad</a>
+              <a href="#">Terminos y condiciones</a>
+            </div>
+            <input class="btn btn-dark" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
